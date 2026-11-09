@@ -1,0 +1,52 @@
+============================================================
+Aurora Section 5.7 Latitude-Slice Analysis — Results Description
+============================================================
+
+PURPOSE
+-------
+Diagnose fine-grained latitude dependence of insertion impacts using narrow
+(±5°) slices at key dynamical locations rather than broad bands.
+
+SLICE DESIGN RATIONALE
+-----------------------
+2°N  (deep tropics): ITCZ region; tests if T/Z insertion propagates into convective zone
+14°N (subtropics):   Monsoon belt, trade wind regime; weakly baroclinic
+40°N (midlat):       Core storm track (North Atlantic/Pacific); strong QG dynamics
+60°N (subpolar):     Jet exit region; strong baroclinic instability poleward flank
+
+METHODOLOGY
+-----------
+Same as lat-band analysis but RMSE computed over a ±5° latitude strip.
+Only NH slices used (SH mirrors shown in setup figure for context only).
+Mature phase only (day 30–60) for percentage improvement calculations.
+
+FILES PRODUCED
+--------------
+Aurora_{run}_{var}_latslice_rmse.csv  (step, lead_day, 2°N, 14°N, 40°N, 60°N, run)
+Aurora_latslice_pct_improvement_summary.csv
+
+EXPECTED PATTERNS
+-----------------
+T-insertion (→ U500, Z500):
+  - 40°N: Maximum improvement expected (strong thermal-wind coupling)
+  - 2°N: Minimal or negative (tropical dynamics uncoupled from T→Z)
+  - 60°N: Moderate-to-strong (polar front; T gradient drives jet)
+
+UV-insertion (→ T500, Z500):
+  - 40°N: Strong Z response through geostrophic balance
+  - 14°N: Possibly negative — imposing realistic winds may disrupt tropical balance
+  - 60°N: Strong coupling through barotropic component of the flow
+
+Z-insertion (→ T500, Wind500):
+  - All latitudes: Z→T through hypsometric should work everywhere
+  - 40°N: Strongest Z→Wind (geostrophic coupling at peak Coriolis)
+  - 2°N: Weakest Z→Wind (near-equatorial geostrophic breakdown)
+
+INTERPRETATION OF FAILURE MODES (Figure LS.5)
+-----------------------------------------------
+Positive bar: insertion information propagates correctly to response variable
+Negative bar: insertion degrades response — possible causes:
+  1. Aurora's learned dynamics at this latitude are inconsistent
+  2. Inserted variable is not dynamically linked to response at this regime
+  3. Forcing errors (ERA5 - control) at mature phase are spatially coherent
+     but project onto wrong modes in the response field

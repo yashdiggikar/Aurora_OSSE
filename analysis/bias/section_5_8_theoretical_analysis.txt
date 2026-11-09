@@ -1,0 +1,66 @@
+============================================================
+Aurora Section 5.8 Spatial Bias Analysis — Theoretical Background
+============================================================
+
+SYSTEMATIC BIAS IN ML WEATHER MODELS
+--------------------------------------
+ML weather models like Aurora are trained to minimize globally-averaged loss
+functions. This can lead to spatially structured systematic biases, particularly:
+
+1. REGRESSION TO CLIMATOLOGY (spectral smoothing)
+   - At long lead times, ML models tend toward climatological mean states
+   - Manifests as T500 biases near ~0 globally but with reduced spatial variance
+   - Aurora's attention mechanism may help preserve spatial structure longer
+     than simpler CNN-based models like FCN
+
+2. JET STREAM PLACEMENT ERRORS
+   - Z500 and U500 biases often cluster near the mid-latitude jet stream (~40°N)
+   - Positive Z500 bias north of jet and negative south = poleward-displaced jet
+   - Aurora trained on ERA5 1979–2022 may have learned mean jet position
+
+3. POLAR AMPLIFICATION ERRORS
+   - Arctic warming trends in ERA5 training data may introduce polar T500 biases
+   - Aurora may systematically overestimate polar warming at long lead times
+
+4. TROPICAL BIAS STRUCTURE
+   - In tropics, bias patterns often show stationary wave structures
+   - These arise from Aurora's inability to perfectly represent ENSO/MJO variability
+
+HOW INSERTION MODIFIES BIAS
+----------------------------
+When we force Aurora to use ERA5 truth for one variable at each step:
+  1. Direct: the inserted variable has zero bias by construction
+  2. Indirect: other variables are modified through Aurora's internal dynamics
+
+If Aurora has learned geostrophic balance (Z500 ↔ U,V):
+  Z500 insertion → reduces U,V500 bias in midlatitudes (geostrophic projection)
+  U,V insertion → reduces Z500 bias in midlatitudes
+
+If Aurora has learned hypsometric relationship (Z500 ↔ T500):
+  T500 insertion → reduces Z500 bias globally
+  Z500 insertion → reduces T500 bias globally
+
+FAILURE MODES: WHEN INSERTION WORSENS BIAS
+-------------------------------------------
+Case 1: Inconsistent internal balance
+  Aurora's learned T-Z relationship may differ from the true hypsometric equation.
+  Inserting T500=ERA5 may force Z500 into an inconsistent state.
+
+Case 2: Geostrophic imbalance in tropics
+  Inserting geopotential in tropics creates a geostrophically-consistent wind
+  response, but tropical dynamics are ageostrophic. Result: positive Z500
+  insertion → incorrect tropical wind anomalies → worse T bias.
+
+Case 3: Error compensation
+  Aurora's control bias in two variables may partially cancel each other. Correcting
+  one variable removes the cancellation and reveals a larger net bias.
+
+COMPARISON WITH QG THEORY
+---------------------------
+Quasi-geostrophic theory predicts the following in midlatitudes:
+  Z-insertion → U,V improvement:  ΔU = -(1/f) ∂ΔZ/∂y  [direct geostrophic]
+  T-insertion → Z improvement:   ΔZ = (R/g) ΔT × Δ(ln p) [hypsometric]
+  U,V-insertion → Z improvement:  geostrophic projection
+
+Any deviation from these expected bias-reduction patterns in Aurora indicates
+where its learned dynamics diverge from physical balance laws.

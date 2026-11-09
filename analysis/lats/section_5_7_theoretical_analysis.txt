@@ -1,0 +1,68 @@
+============================================================
+Aurora Section 5.7 Latitude-Band Analysis — Theoretical Background
+============================================================
+
+WHY LATITUDE BANDS MATTER
+--------------------------
+Atmospheric dynamics are fundamentally different across latitude regimes:
+
+1. TROPICS (|lat| < 30°)
+   - Weak Coriolis parameter (f → 0 at equator)
+   - Thermal wind balance breaks down; geostrophic approximation invalid
+   - Convective coupling dominates; CAPE and moisture fluxes govern dynamics
+   - Expected: T insertion should minimally improve wind fields
+   - Expected: Z insertion has weak coupling to T (no hypsometric balance dominance)
+
+2. MIDLATITUDES (30° < |lat| < 60°)
+   - Strong Coriolis; quasi-geostrophic dynamics apply
+   - Thermal wind balance: ∂U/∂z = -(g/fT) ∂T/∂y
+   - Baroclinic instability drives storm tracks (Eady growth rate ~ ∂T/∂y)
+   - Expected: Strong T↔U↔Z coupling (all related through QG equations)
+   - Expected: Insertion of any QG variable should improve others
+
+3. POLAR (|lat| > 60°)
+   - Large f; strong geostrophic constraint
+   - Strong vertical coupling through stratosphere–troposphere interaction
+   - Sea-ice boundary creates sharp T gradients
+   - Expected: T insertion should show strong response in Z (Greenland, etc.)
+   - Expected: Long error correlation lengths due to barotropic structure
+
+PHYSICAL COUPLING MECHANISMS IN AURORA
+---------------------------------------
+Aurora is an attention-based transformer trained on ERA5. Unlike explicit
+dynamical models, coupling emerges through learned associations in the training data.
+
+Key expected couplings (from QG theory):
+  T → Z: Hypsometric equation: Z ~ ∫T dp; warm air → high thickness → higher Z
+  Z → T: Same relationship in reverse; anomalous Z corrects T thickness errors
+  U,V → Z: Geostrophic: U = -(1/f) ∂Z/∂y; wind insertion should project onto Z
+  Z → U,V: Geostrophic balance; correcting Z should adjust winds
+
+Latitude-dependent test:
+  If Aurora has learned true quasi-geostrophic dynamics, these couplings should
+  be STRONGER in midlatitudes and weaker in tropics — exactly as in the real
+  atmosphere. Deviations from this expectation suggest Aurora has learned
+  spurious or climatological rather than dynamically consistent associations.
+
+WHAT FIGURES 5.36–5.38 TEST
+-----------------------------
+Each figure shows RMSE time series for 4 runs (control + 3 insertions) in 3 bands:
+
+- If insertion run diverges from control ONLY in the mature phase (day 30–60):
+  confirms that forcing is activated after day 30 and propagation takes time.
+- If insertion run matches control in all bands:
+  the inserted variable has no dynamical influence on the response variable.
+- If insertion INCREASES RMSE in polar band but DECREASES in midlats:
+  reveals a failure mode — Aurora's polar dynamics are inconsistent with
+  theoretical expectations.
+
+COMPARISON WITH FOURCASTNET
+-----------------------------
+FourCastNet showed [results from FCN analysis in /FourCastNet/lats/]:
+  - T-insertion improved Z500 strongly in midlatitudes
+  - UV-insertion showed weaker coupling to T500 in tropics
+  - Z-insertion dominated geostrophic balance in all bands
+
+Aurora is expected to show similar band structure if its transformer architecture
+has learned similar balances. Differences in coupling efficiency between Aurora
+and FCN at the same latitude band indicate architectural or training differences.

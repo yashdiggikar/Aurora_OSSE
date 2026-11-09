@@ -1,0 +1,68 @@
+============================================================
+Aurora Section 5.8 Spatial Bias Analysis — Methods and Interpretation
+============================================================
+
+PURPOSE
+-------
+Identify WHERE in the globe Aurora's systematic errors (biases) are concentrated,
+and quantify where each insertion type corrects vs. worsens those biases.
+
+BIAS DEFINITION
+---------------
+Bias(lat, lon) = mean_t [ Aurora(lat,lon,t) − ERA5(lat,lon,t) ]
+Computed over all mature-phase steps (day 30–60, 60 × 12-hr fields).
+
+VARIABLES ANALYSED
+------------------
+T500:    500-hPa temperature (K) — Aurora's thermodynamic state
+U500:    500-hPa zonal wind (m/s) — jet stream representation
+Z500:    500-hPa geopotential (m²/s²) — pressure pattern
+Wind500: 500-hPa wind speed (m/s) — total kinetic energy proxy
+(V500 computed internally but not shown as primary figure variable)
+
+BIAS REDUCTION METRIC
+---------------------
+Bias reduction = |control_bias| - |insertion_bias|
+  > 0: insertion reduces systematic error (improvement)
+  < 0: insertion increases systematic error (failure mode)
+
+This uses absolute bias to avoid sign cancellation: a run that shifts the
+bias from +2 K to -2 K has zero "improvement" by this metric even though
+it crossed zero — it just moved the error to the other side.
+
+FIGURES
+-------
+Figure 5.43: Control bias maps
+  Shows Aurora's systematic errors without any insertion. Key signatures:
+  - T500 cold/warm biases (Aurora may show cold bias over storm track regions)
+  - Z500 systematic high/low pressure biases (indicates jet stream placement errors)
+  - U500 westerly/easterly biases (jet speed errors)
+
+Figure 5.44: Temperature insertion — U500 and Z500 bias reduction
+  3-panel per variable: control bias | T-ins bias | bias reduction
+  Expected: T insertion should reduce Z500 bias (via hypsometric) but may have
+  variable effect on U500 depending on Aurora's T-U coupling.
+
+Figure 5.45: Wind insertion — T500 and Z500 bias reduction
+  Expected: UV insertion should strongly reduce Z500 bias (geostrophic). T500
+  response depends on how well Aurora maintains thermal-wind balance internally.
+
+Figure 5.46: Geopotential insertion — T500 and Wind500 bias reduction
+  Expected: Z insertion should reduce Wind500 bias through geostrophic balance.
+  T500 response through hypsometric should be global but weaker.
+
+Figure 5.47: Failure-mode summary map
+  Categorical map: regions colored by which insertion best reduces Z500 bias.
+  Reveals geographic structure of insertion effectiveness.
+
+INTERPRETATION GUIDE
+--------------------
+- Large positive bias in T500 over polar regions: Aurora may be running too warm
+  (possibly overcorrects toward climatology after long leads)
+- Z500 positive bias over high-latitude continents: Aurora may be displacing the
+  polar vortex or jet stream poleward
+- Regions where ALL insertions worsen bias: Aurora's dynamics in those areas are
+  inconsistent — forcing the state toward ERA5 truth in one variable
+  creates compensating errors in others (balance inconsistency)
+- Tropical regions where insertion helps: suggests Aurora's tropical dynamics
+  are constrained by the inserted variable more than expected from theory

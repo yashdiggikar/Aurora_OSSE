@@ -1,0 +1,56 @@
+============================================================
+Aurora Global NRMSE Analysis — Results Description
+Section 5.5: NRMSE Time Series (Sections 5.5.1–5.5.5)
+============================================================
+
+EXPERIMENT SETUP
+----------------
+Model:         Aurora (Microsoft Research)
+Grid:          720×1440 (0.25° lat/lon, South Pole excluded)
+IC:            2023-02-01 12:00 UTC
+Forecast length: 60 days (120 steps × 12 hr)
+Mature phase:  Day 30–60 (steps 60–119)
+
+Runs:
+  control  — Unperturbed Aurora forecast (from auroraoutput_1year_1stfeb23.nc, steps 0–119)
+  t_ins    — Temperature field (all levels) forced to ERA5 truth at each step
+  uv_ins   — U and V wind components (all levels) forced to ERA5 truth
+  z_ins    — Geopotential height (all levels) forced to ERA5 truth
+
+Truth:         ERA5 reanalysis (6-hourly, subsampled to 12-hourly to match Aurora)
+Normalization: cosine-latitude weighted global mean of ERA5 temporal standard
+               deviation over the 120-step period (σ_ERA5, scalar per variable)
+
+FILES PRODUCED
+--------------
+Aurora_t500_global_rmse.csv   / nrmse.csv
+Aurora_u500_global_rmse.csv   / nrmse.csv
+Aurora_z500_global_rmse.csv   / nrmse.csv
+Aurora_wind500_global_rmse.csv / nrmse.csv
+Aurora_wind10_global_rmse.csv  / nrmse.csv
+Aurora_era5_std_normalization.csv
+
+INTERPRETATION GUIDE
+--------------------
+- NRMSE < 1.0: forecast error smaller than climatological variability (skillful)
+- NRMSE > 1.0: forecast error exceeds natural variability (unskillful)
+- Trivially inserted variable (e.g. t_ins → t500): NRMSE ≈ 0.0 (forced to truth)
+- Cross-variable coupling: e.g. z_ins → t500 NRMSE below 1.0 shows geopotential
+  insertion propagates skill to temperature through hypsometric balance
+
+KEY DIFFERENCES FROM FOURCASTNET
+---------------------------------
+1. Aurora grid is 720×1440 (not 721×1440); South Pole row absent
+2. Aurora IC is 12Z not 00Z; ERA5 time matching uses ±1-hour tolerance
+3. Aurora files store all 13 pressure levels per variable as named datasets
+4. Wind insertion is "uv_ins" (u+v together) vs FCN "wind_ins"
+5. Control file: uses auroraoutput_1year_1stfeb23.nc steps 0–119 because
+   auroraoutput_60day_12hr.nc is truncated (18 GB vs expected 34 GB)
+
+PHYSICAL INTERPRETATION
+-----------------------
+Aurora's dynamical core differs from FCN's data-driven mapping. Cross-variable
+coupling scores (NRMSE improvement in non-inserted variables) reveal how strongly
+Aurora's internal dynamics couple the atmospheric state variables. Strong coupling
+(z_ins→t500 or uv_ins→z500) indicates active hypsometric/geostrophic balancing
+in the learned dynamics, analogous to quasi-geostrophic balance in the real atmosphere.

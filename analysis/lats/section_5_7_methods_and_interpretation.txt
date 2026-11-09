@@ -1,0 +1,55 @@
+============================================================
+Aurora Section 5.7 Latitude-Band Analysis — Methods and Interpretation
+============================================================
+
+PURPOSE
+-------
+Determine whether Aurora's insertion-response patterns differ across dynamical
+regimes: tropics (dominated by convection and Hadley circulation), midlatitudes
+(baroclinic storm tracks, jet streams), and polar regions (sea-ice boundary,
+stratospheric coupling).
+
+METHODOLOGY
+-----------
+1. Cosine-latitude-weighted RMSE computed per time step within each latitude band.
+2. Four Aurora runs compared: control, t_ins, uv_ins, z_ins.
+3. Percentage improvement = 100 × (ctrl_RMSE - ins_RMSE) / ctrl_RMSE.
+4. Both initial phase (day 0–30) and mature phase (day 30–60) reported.
+5. ERA5 truth matched to Aurora 12-hourly timestamps with ±1 h tolerance.
+
+LATITUDE BAND DEFINITIONS
+--------------------------
+Tropics:        |lat| < 30°   (convective, low baroclinicity)
+Midlatitudes:   30° < |lat| < 60°  (baroclinic, storm tracks)
+Polar:          |lat| > 60°   (sea-ice boundary, high Rossby deformation radius)
+
+VARIABLES
+---------
+T500:    500-hPa temperature  — probes thermal insertion cross-coupling
+U500:    500-hPa zonal wind   — probes wind insertion and thermal wind balance
+Z500:    500-hPa geopotential — probes geostrophic coupling
+Wind500: sqrt(U500²+V500²)    — total 500-hPa wind speed
+Wind10:  sqrt(10U²+10V²)      — 10-m surface wind speed
+
+INTERPRETATION GUIDE
+--------------------
+Figure 5.36 (T-insertion → U500 & Z500 response by latitude):
+  Tropics:    Thermal insertion rarely improves winds — tropics are not
+              strongly constrained by thermal-wind balance (weak Coriolis).
+  Midlats:    Should see T→U coupling via thermal wind shear (∂U/∂z ~ ∂T/∂y).
+  Polar:      High baroclinicity; expect strong T→Z coupling.
+
+Figure 5.37 (UV-insertion → T500 & Z500 response by latitude):
+  Tropics:    Wind forcing in tropics can alter T via adiabatic heating
+              but thermal wind balance is weak.
+  Midlats:    Strong geostrophic relation: U→Z coupling expected.
+  Polar:      Strongest geostrophic constraint; Z response to wind insertion.
+
+Figure 5.38 (Z-insertion → T500 & Wind500 response by latitude):
+  All bands:  Z→T hypsometric coupling (thickness = f(T)) should be band-independent.
+  Midlats:    Z→Wind through geostrophic balance: V = -(1/f) ∂Z/∂x.
+
+Figure 5.39 (Bar chart summary):
+  Compares Aurora's cross-field coupling efficiency across latitude bands.
+  Positive bars = model propagates the inserted information to other fields.
+  Negative bars = insertion degraded the response field (failure mode).

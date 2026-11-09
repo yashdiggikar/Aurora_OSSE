@@ -1,0 +1,83 @@
+============================================================
+Aurora Section 5.6 Cross-Variable Coupling Analysis — Results Description
+============================================================
+
+PURPOSE
+-------
+Quantify how inserting one variable (A) at each forecast step improves
+forecasts of a different variable (B) in the mature phase (day 30–60).
+This measures Aurora's internal dynamical couplings as learned from ERA5.
+
+COUPLING SCORE DEFINITION
+--------------------------
+C(A→B) [%] = mean over 13 pressure levels of:
+    100 × (RMSE_ctrl(B_lev) - RMSE_ins_A(B_lev)) / RMSE_ctrl(B_lev)
+
+where:
+  RMSE_ctrl(B_lev)   = global cosine-weighted RMSE of control run for var B at level lev
+  RMSE_ins_A(B_lev)  = global cosine-weighted RMSE of insertion-A run for var B at level lev
+
+Positive score → insertion A improves forecasts of B (coupling)
+Negative score → insertion A worsens forecasts of B (interference / inconsistency)
+~100% for trivial (self-insertion): inserted variable IS ERA5 truth
+
+RUNS
+----
+temp_ins:  All T levels (t1000...t50) forced to ERA5 at each step
+wind_ins:  All U and V levels forced to ERA5 at each step
+geo_ins:   All Z levels (z1000...z50) forced to ERA5 at each step
+Control:   Unperturbed Aurora (from auroraoutput_1year_1stfeb23.nc, steps 0–119)
+
+VARIABLE GROUPS MEASURED
+------------------------
+T (temperature):       13 levels 1000–50 hPa
+U (zonal wind):        13 levels 1000–50 hPa
+V (meridional wind):   13 levels 1000–50 hPa
+Z (geopotential):      13 levels 1000–50 hPa
+Q (specific humidity): 13 levels 1000–50 hPa  [never inserted — always cross-coupling]
+
+FILES PRODUCED
+--------------
+Aurora_coupling_matrix.csv     — one row per (insertion, response_group)
+Aurora_coupling_per_level.csv  — one row per (insertion, response_group, level)
+Aurora_coupling_summary.csv    — strongest/second/weakest coupling per insertion
+
+EXPECTED RESULTS (based on physical coupling theory)
+-----------------------------------------------------
+temp_ins → Z coupling (T→Z):
+  Strong positive expected (hypsometric): inserting T propagates to Z thickness.
+  Expected: ~30–60% RMSE improvement in Z across all levels.
+
+temp_ins → U,V coupling (T→U,V):
+  Moderate positive expected at upper levels (thermal wind balance: ∂U/∂z ~ ∂T/∂y).
+  May be near zero or negative in troposphere where advective coupling is weak.
+
+wind_ins → Z coupling (U,V→Z):
+  Strong positive expected (geostrophic balance: U,V ↔ Z in midlatitudes).
+  Upper troposphere/lower stratosphere may show strongest coupling.
+
+wind_ins → T coupling (U,V→T):
+  Moderate: wind insertion may improve T through advective warming/cooling.
+  Weaker than thermal wind mechanism.
+
+geo_ins → U,V coupling (Z→U,V):
+  Strong positive (geostrophic: U = -1/f ∂Z/∂y).
+  Very strong at 250–500 hPa (jet stream level).
+
+geo_ins → T coupling (Z→T):
+  Moderate-to-strong (hypsometric in reverse): correcting Z thickness corrects T.
+
+Q coupling:
+  Q is never inserted, so all Q scores are cross-couplings.
+  T→Q coupling: thermal effects on moisture through Clausius-Clapeyron.
+  Z→Q coupling: dynamical ascent/descent modifies relative humidity.
+
+COMPARISON WITH FOURCASTNET
+-----------------------------
+Key differences expected for Aurora vs FCN:
+1. Aurora was trained on higher-resolution ERA5 with more levels → possibly
+   stronger and more physically consistent cross-level coupling
+2. Aurora's attention mechanism may produce long-range spatial couplings not
+   present in FCN's global spectral architecture
+3. Q group available in Aurora (not in FCN coupling analysis) → reveals
+   moisture coupling which is critical for precipitation and tropical dynamics

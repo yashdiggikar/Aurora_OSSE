@@ -1,0 +1,232 @@
+repo_path	original_path	md5	note
+analysis/bias/bias_memory.md	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/bias/bias_memory.md	3d34102b78ec1e219ae76fa5e8fcd901	
+analysis/bias/section_5_8_aurora_bias_analysis.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/bias/section_5_8_aurora_bias_analysis.py	9269cde441c386905194eaa122e01a98	
+analysis/bias/section_5_8_methods_and_interpretation.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/bias/section_5_8_methods_and_interpretation.txt	764bb7ed28f612482bdcedef39165c4e	
+analysis/bias/section_5_8_theoretical_analysis.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/bias/section_5_8_theoretical_analysis.txt	3dc8e9152f66920f0255b0a5fb873691	
+analysis/coupling/compute_aurora_coupling.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/coupling/compute_aurora_coupling.py	ebf4643a50cd1a4beec2a89254be6400	
+analysis/coupling/coupling_memory.md	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/coupling/coupling_memory.md	d91f3546af0bef02329821849786b2a9	
+analysis/coupling/coupling_results_analysis.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/coupling/coupling_results_analysis.txt	3307dac524f3055c830afcd56d615d8e	
+analysis/lat_bands/latslice_memory.md	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lat_bands/latslice_memory.md	c2cf38e3f6075e72a907e49cf510f6b4	
+analysis/lat_bands/section_5_7_aurora_latslice_analysis.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lat_bands/section_5_7_aurora_latslice_analysis.py	40276d67508c94a4eb08b838c62f0ad8	
+analysis/lat_bands/section_5_7_latslice_results_analysis.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lat_bands/section_5_7_latslice_results_analysis.txt	dad6fe1087e15646693227a036e2a637	
+analysis/lats/lats_memory.md	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lats/lats_memory.md	da09b956b9e15efee48fb3aa0b1fefac	
+analysis/lats/section_5_7_aurora_latband_analysis.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lats/section_5_7_aurora_latband_analysis.py	3b47ecabd0ac66289200576696ab9f91	
+analysis/lats/section_5_7_methods_and_interpretation.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lats/section_5_7_methods_and_interpretation.txt	43e268b99574a6090ef9f9da12f3fee0	
+analysis/lats/section_5_7_theoretical_analysis.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/lats/section_5_7_theoretical_analysis.txt	c894f76d5db72664c3918a130309e6fd	
+analysis/nrmse/compute_aurora_nrmse.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/nrmse/compute_aurora_nrmse.py	499902f65f90e7a9c86b5cb58130b550	
+analysis/nrmse/compute_q_nrmse_aurora.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/nrmse/compute_q_nrmse_aurora.py	0c2056848d0c0d808237dad89815eb2e	
+analysis/nrmse/nrmse_memory.md	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/nrmse/nrmse_memory.md	8b4fdb06d33996d97539cd451fa4b9ae	
+analysis/nrmse/nrmse_results_analysis.txt	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/nrmse/nrmse_results_analysis.txt	18d82da38e3021146973fcb5da1718f1	
+analysis/nrmse/patch_v500_aurora.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/nrmse/patch_v500_aurora.py	f1905e2de4883e6a42cfede884cc7c64	
+analysis/nrmse/patch_v500_aurora_lats.py	/umbc/rs/pi_halem/users/yashd1/Aurora_Pred_Files/nrmse/patch_v500_aurora_lats.py	2912218ec11fe8ea248e45cb9301a3e8	
+analysis/osse_core/_recompute_perturbed_pipeline.sh	/umbc/rs/pi_halem/users/yashd1/CC_aurora/_recompute_perturbed_pipeline.sh	d646b0d843c95a480a5a829c496ef145	
+analysis/osse_core/_sync_perturbed_csvs.sh	/umbc/rs/pi_halem/users/yashd1/CC_aurora/_sync_perturbed_csvs.sh	c8f24b9a9aa5e2f9ddf5616977216395	
+analysis/osse_core/analyze_osse.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/analyze_osse.py	97923043fc39630e6b54c20cf80b0f7c	
+analysis/osse_core/extract_propagation_arrays.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/extract_propagation_arrays.py	5b3b1eee5f683add08f55fea9a9938e9	
+analysis/osse_core/run_analysis.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/run_analysis.slurm	430ef8e1068881cb721ce7cd99325c12	
+analysis/osse_core/run_analyze_osse.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/run_analyze_osse.slurm	81ca5846590d2652ad8e49b159b7569a	
+analysis/osse_core/run_extract_propagation_arrays.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/run_extract_propagation_arrays.slurm	59c596edd35819dec181f447e89fd6b5	
+analysis/perturbation_cop/IMPLEMENTATION.md	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/Aurora/IMPLEMENTATION.md	3d4974d2627fd6ea1e6953fbf74825e8	
+analysis/perturbation_cop/compute_correlation_length_corr.py	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/Aurora/compute_correlation_length_corr.py	c844e1d7163ea97c9ae1e9fbbece0210	
+analysis/perturbation_cop/compute_global_rmse_corr.py	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/Aurora/compute_global_rmse_corr.py	17fd21ecdfd0c6d1bd6e4db10730153d	
+analysis/perturbation_cop/compute_latband_rmse_corr.py	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/Aurora/compute_latband_rmse_corr.py	376f06f40105bbc2a38186415289831f	
+analysis/perturbation_cop/compute_spatial_bias_corr.py	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/Aurora/compute_spatial_bias_corr.py	802f217172f0b1d046e93d8853426ce4	
+analysis/perturbation_cop/compute_spectral_blur_corr.py	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/Aurora/compute_spectral_blur_corr.py	36a91dbab3b83346dcabf22c7737e3ee	
+docs/COP_METHOD_OVERVIEW.md	/umbc/rs/pi_halem/users/yashd1/PERTURBATION_EXPERIMENTS/METHOD_OVERVIEW.md	1615b9013cde6392d52e9bfa4ffb78cc	
+experiments/00_global_runs/control_1year/1yr_inf.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/1yr_inf.py	4e1cc07e5300656cb1e2543d5beee17a	driver for auroraoutput_1year_1stfeb23.nc (control; first 120 x 12h steps used)
+experiments/00_global_runs/control_1year/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/rollout.py	5064ecf79903b19dee780601909b8341	normal rollout (no injection), as on disk
+experiments/00_global_runs/drivers_as_found/bhag.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/bhag.py	801a2ce8598d7fdf61504c1b2fea03bb	global-run driver as last saved on disk
+experiments/00_global_runs/drivers_as_found/gppu.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/gppu.py	be51dce4af87653d82ff851af498ef8e	global-run driver as last saved on disk
+experiments/00_global_runs/drivers_as_found/in.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/in.py	d0a3b06ff458ce42fa04da0813d688ce	global-run driver as last saved on disk
+experiments/00_global_runs/drivers_as_found/inf.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/inf.py	57ec380571b067e2fec4fd6f8a96fead	global-run driver as last saved on disk
+experiments/00_global_runs/drivers_as_found/inf_gpu.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/inf_gpu.py	1c7ab3144cd840f9c1dc2c88dd24471a	global-run driver as last saved on disk
+experiments/00_global_runs/drivers_as_found/inference.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/inference.py	de7a0e8e10232de320a63716d290b600	global-run driver as last saved on disk
+experiments/00_global_runs/uv_insertion_global/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/roll.py	2b418d64e348c2a0186cf4b781a107e1	RECONSTRUCTED: U/V 13-level injection rollout (roll.py on disk)
+experiments/01_control_matched_60d/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/CONTROL_MATCHED_60D/inf.py	b8d06eccb5b1aafe4a58054c8764d40c	CC_aurora/CONTROL_MATCHED_60D
+experiments/01_control_matched_60d/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/CONTROL_MATCHED_60D/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/01_control_matched_60d/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/CONTROL_MATCHED_60D/aurora/rollout.py	450e9bab259e7307ade3e9e64db1aeeb	as-run override
+experiments/01_control_matched_60d/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/CONTROL_MATCHED_60D/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/01_control_matched_60d/run_control_matched_60d.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/CONTROL_MATCHED_60D/run_control_matched_60d.slurm	c7839c089ca7cff7498eb36a8796da41	CC_aurora/CONTROL_MATCHED_60D
+experiments/05_t_insertion_land/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LAND/inf.py	390bb16c76ed881170120c587ba4e5be	CC_aurora/T_LAND
+experiments/05_t_insertion_land/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LAND/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/05_t_insertion_land/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LAND/aurora/rollout.py	4901109eee8c4cec0d973ab84f3bc45f	as-run override
+experiments/05_t_insertion_land/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LAND/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/05_t_insertion_land/propagation_meta_land_temp.json	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LAND/propagation_meta_land_temp.json	38fe5e999eb2f9db3f6400a005a585ce	CC_aurora/T_LAND
+experiments/05_t_insertion_land/run_aurora_t_land.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LAND/run_aurora_t_land.slurm	35029964897247ed5b03f55d70baba5c	CC_aurora/T_LAND
+experiments/06_t_insertion_ocean/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_OCEAN/inf.py	7dc8851914301d6ab6308f4100d43ab7	CC_aurora/T_OCEAN
+experiments/06_t_insertion_ocean/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_OCEAN/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/06_t_insertion_ocean/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_OCEAN/aurora/rollout.py	4901109eee8c4cec0d973ab84f3bc45f	as-run override
+experiments/06_t_insertion_ocean/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_OCEAN/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/06_t_insertion_ocean/propagation_meta_ocean_temp.json	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_OCEAN/propagation_meta_ocean_temp.json	00be20fdb0b7d5266327ed2575aeb717	CC_aurora/T_OCEAN
+experiments/06_t_insertion_ocean/run_aurora_t_ocean.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_OCEAN/run_aurora_t_ocean.slurm	b7139bc9dbfaa41fb83f0596f20721ea	CC_aurora/T_OCEAN
+experiments/07_t_insertion_coastal/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_COASTAL/inf.py	ebae0d28d9bf63997e705c8ff04b29a3	CC_aurora/T_COASTAL
+experiments/07_t_insertion_coastal/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_COASTAL/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/07_t_insertion_coastal/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_COASTAL/aurora/rollout.py	4901109eee8c4cec0d973ab84f3bc45f	as-run override
+experiments/07_t_insertion_coastal/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_COASTAL/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/07_t_insertion_coastal/run_aurora_t_coastal.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_COASTAL/run_aurora_t_coastal.slurm	c9e01abcb99405e9aa0b6aa490938964	CC_aurora/T_COASTAL
+experiments/08_t_insertion_lower3/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LOWER/inf.py	1179d31bfd7d1bd97d588a1f7ace8edb	CC_aurora/T_LOWER
+experiments/08_t_insertion_lower3/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LOWER/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/08_t_insertion_lower3/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LOWER/aurora/rollout.py	2e0649f8b746ccfe60e7d0ecf6f4b6d1	as-run override
+experiments/08_t_insertion_lower3/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LOWER/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/08_t_insertion_lower3/run_aurora_t_lower.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_LOWER/run_aurora_t_lower.slurm	9a13fa1bc60c167ff18e8d83db42f7ac	CC_aurora/T_LOWER
+experiments/09_t_insertion_12h/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_12H/inf.py	b19693433b6da14e7e1114707b421724	CC_aurora/T_12H
+experiments/09_t_insertion_12h/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_12H/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/09_t_insertion_12h/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_12H/aurora/rollout.py	32cff82c353330f52cc68cb59b3ce506	as-run override
+experiments/09_t_insertion_12h/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_12H/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/09_t_insertion_12h/run_aurora_t_12h.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_12H/run_aurora_t_12h.slurm	81c11e2f5d4da67d5b27decdca614067	CC_aurora/T_12H
+experiments/10_t_insertion_perturbed_gaussian/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED/inf.py	6b483e0d25e74f073ea38b43a099468b	CC_aurora/T_PERTURBED
+experiments/10_t_insertion_perturbed_gaussian/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/10_t_insertion_perturbed_gaussian/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED/aurora/rollout.py	d6202e5757821abead4b38b7577ba87b	as-run override
+experiments/10_t_insertion_perturbed_gaussian/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/10_t_insertion_perturbed_gaussian/run_aurora_t_perturbed.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED/run_aurora_t_perturbed.slurm	f12eab9834b5521c3ad0973018d8bd1f	CC_aurora/T_PERTURBED
+experiments/11_t_insertion_perturbed_cop/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED_CORR/inf.py	6f50736365d698cf1b6e1e9658ea218b	CC_aurora/T_PERTURBED_CORR
+experiments/11_t_insertion_perturbed_cop/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED_CORR/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/11_t_insertion_perturbed_cop/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED_CORR/aurora/rollout.py	450e9bab259e7307ade3e9e64db1aeeb	as-run override
+experiments/11_t_insertion_perturbed_cop/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED_CORR/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/11_t_insertion_perturbed_cop/run_aurora_t_perturbed_corr.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/T_PERTURBED_CORR/run_aurora_t_perturbed_corr.slurm	ba7857ccc0c16587800023d4f5a8f14c	CC_aurora/T_PERTURBED_CORR
+experiments/12_uv_insertion_land/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LAND/inf.py	535f06311a7f1f50eb20e44b7adab94c	CC_aurora/UV_LAND
+experiments/12_uv_insertion_land/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LAND/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/12_uv_insertion_land/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LAND/aurora/rollout.py	34f02daddc1192ec00a7dc13adeecc09	as-run override
+experiments/12_uv_insertion_land/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LAND/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/12_uv_insertion_land/propagation_meta_land_uv.json	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LAND/propagation_meta_land_uv.json	72ff8fd289aa529b1d0ce4df791b9b30	CC_aurora/UV_LAND
+experiments/12_uv_insertion_land/run_aurora_uv_land.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LAND/run_aurora_uv_land.slurm	ea94f79aaaf7ab05cadca48b392f6581	CC_aurora/UV_LAND
+experiments/13_uv_insertion_ocean/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_OCEAN/inf.py	17425ebf6a4851e3718cb21aa688d600	CC_aurora/UV_OCEAN
+experiments/13_uv_insertion_ocean/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_OCEAN/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/13_uv_insertion_ocean/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_OCEAN/aurora/rollout.py	34f02daddc1192ec00a7dc13adeecc09	as-run override
+experiments/13_uv_insertion_ocean/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_OCEAN/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/13_uv_insertion_ocean/propagation_meta_ocean_uv.json	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_OCEAN/propagation_meta_ocean_uv.json	a382a07697d5eea23aeafbdd5ed3ca40	CC_aurora/UV_OCEAN
+experiments/13_uv_insertion_ocean/run_aurora_uv_ocean.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_OCEAN/run_aurora_uv_ocean.slurm	afac1cfed2d45c8005cdf0d65ccd2e47	CC_aurora/UV_OCEAN
+experiments/14_uv_insertion_coastal/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_COASTAL/inf.py	333444a2a2f72a99e47e37dbda0dd93c	CC_aurora/UV_COASTAL
+experiments/14_uv_insertion_coastal/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_COASTAL/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/14_uv_insertion_coastal/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_COASTAL/aurora/rollout.py	34f02daddc1192ec00a7dc13adeecc09	as-run override
+experiments/14_uv_insertion_coastal/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_COASTAL/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/14_uv_insertion_coastal/run_aurora_uv_coastal.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_COASTAL/run_aurora_uv_coastal.slurm	86b8fb8d26a8d4b63fac8207a43a307e	CC_aurora/UV_COASTAL
+experiments/15_uv_insertion_lower3/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LOWER/inf.py	cc24081ecba33dd00440d4798dec8450	CC_aurora/UV_LOWER
+experiments/15_uv_insertion_lower3/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LOWER/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/15_uv_insertion_lower3/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LOWER/aurora/rollout.py	2f2ad8bd7e8d79a4b5b10fcc29496b08	as-run override
+experiments/15_uv_insertion_lower3/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LOWER/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/15_uv_insertion_lower3/run_aurora_uv_lower.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_LOWER/run_aurora_uv_lower.slurm	c383aab4cbc737144a7c67c79de356e6	CC_aurora/UV_LOWER
+experiments/16_uv_insertion_12h/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_12H/inf.py	87c464df567905533ada5d361e0c80d2	CC_aurora/UV_12H
+experiments/16_uv_insertion_12h/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_12H/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/16_uv_insertion_12h/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_12H/aurora/rollout.py	5c36b90d941bd1c2ac33372c86f472d0	as-run override
+experiments/16_uv_insertion_12h/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_12H/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/16_uv_insertion_12h/run_aurora_uv_12h.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_12H/run_aurora_uv_12h.slurm	a5647b4e99a786e29e88655429c15d18	CC_aurora/UV_12H
+experiments/17_uv_insertion_perturbed_cop/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_PERTURBED_CORR/inf.py	978248cbec66a371bf78773117f0841d	CC_aurora/UV_PERTURBED_CORR
+experiments/17_uv_insertion_perturbed_cop/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_PERTURBED_CORR/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/17_uv_insertion_perturbed_cop/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_PERTURBED_CORR/aurora/rollout.py	f0812c78e944b687e386e3981e22b0f9	as-run override
+experiments/17_uv_insertion_perturbed_cop/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_PERTURBED_CORR/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/17_uv_insertion_perturbed_cop/run_aurora_uv_perturbed_corr.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/UV_PERTURBED_CORR/run_aurora_uv_perturbed_corr.slurm	7ea9439758163759db607ff323c6a2cb	CC_aurora/UV_PERTURBED_CORR
+experiments/18_tuv_insertion_global/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/TUV_GLOBAL/inf.py	a745322ca33b62309107a2e4c51c8cbd	CC_aurora/TUV_GLOBAL
+experiments/18_tuv_insertion_global/model_overrides/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/TUV_GLOBAL/aurora/inf.py	030e9b534e952034a890ce9075a033a2	as-run override
+experiments/18_tuv_insertion_global/model_overrides/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/TUV_GLOBAL/aurora/rollout.py	c2d75f2d68e2b8a34f9bd633c8d0453c	as-run override
+experiments/18_tuv_insertion_global/model_overrides/aurora/swath_inf.sbatch	/umbc/rs/pi_halem/users/yashd1/CC_aurora/TUV_GLOBAL/aurora/swath_inf.sbatch	8b085e6d8078185150fdb687f4a87788	as-run override
+experiments/18_tuv_insertion_global/run_aurora_tuv_global.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/TUV_GLOBAL/run_aurora_tuv_global.slurm	f3e99ae9f27d38978d5c8902ab704aeb	CC_aurora/TUV_GLOBAL
+experiments/18_tuv_insertion_global/run_aurora_uv_ocean.slurm	/umbc/rs/pi_halem/users/yashd1/CC_aurora/TUV_GLOBAL/run_aurora_uv_ocean.slurm	afac1cfed2d45c8005cdf0d65ccd2e47	CC_aurora/TUV_GLOBAL
+model/.github/workflows/build_docs.yaml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/.github/workflows/build_docs.yaml	056c1a7347a058b3ac4954f73e3decbe	microsoft/aurora fork (working tree)
+model/.github/workflows/ci.yaml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/.github/workflows/ci.yaml	cfc6d944d45acfc516f52aa413eee0d2	microsoft/aurora fork (working tree)
+model/.github/workflows/formatting.yaml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/.github/workflows/formatting.yaml	5d1ac068911d016176cecdf7726fa4bb	microsoft/aurora fork (working tree)
+model/.github/workflows/publish.yaml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/.github/workflows/publish.yaml	9dd87b92e0cfbef3d70f34fb77d80db8	microsoft/aurora fork (working tree)
+model/.gitignore	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/.gitignore	a51932a80db3fbe4f8e9188a896e65d3	microsoft/aurora fork (working tree)
+model/.pre-commit-config.yaml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/.pre-commit-config.yaml	b256a7047148b98c16a383b776beb9cb	microsoft/aurora fork (working tree)
+model/CONTRIBUTING.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/CONTRIBUTING.md	939e3ec17b7c2a5466b1deb6dedd7574	microsoft/aurora fork (working tree)
+model/LICENSE.txt	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/LICENSE.txt	ed336a0887394559273ac10e04a03465	microsoft/aurora fork (working tree)
+model/Makefile	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/Makefile	f379f13d533540c918c76e2bdc3abef8	microsoft/aurora fork (working tree)
+model/README.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/README.md	66038306799415e738fa29f30a41c0f6	microsoft/aurora fork (working tree)
+model/SECURITY.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/SECURITY.md	7b7328286d5ce340e75d3ebd8a103fae	microsoft/aurora fork (working tree)
+model/aurora/1yr_inf.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/1yr_inf.py	4e1cc07e5300656cb1e2543d5beee17a	microsoft/aurora fork (working tree)
+model/aurora/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/__init__.py	8fc9233561e8f254d1cb3906402e0782	microsoft/aurora fork (working tree)
+model/aurora/area.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/area.py	64d1ad3321b6079eb21aef0894cf3fe7	microsoft/aurora fork (working tree)
+model/aurora/batch.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/batch.py	80587d4c52950dcbf1e853dd1467ba67	microsoft/aurora fork (working tree)
+model/aurora/bhag.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/bhag.py	801a2ce8598d7fdf61504c1b2fea03bb	microsoft/aurora fork (working tree)
+model/aurora/download.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/download.py	a0d060b903a0c1e4b6efa7d5da3601be	microsoft/aurora fork (working tree)
+model/aurora/foundry/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/__init__.py	f61d78ec3002bf8e0147a1556acc8deb	microsoft/aurora fork (working tree)
+model/aurora/foundry/client/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/client/__init__.py	140d380ab40ca8d47cf286ea58a9a9d0	microsoft/aurora fork (working tree)
+model/aurora/foundry/client/api.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/client/api.py	109702c0d555fd99fdc7ba94cb892d32	microsoft/aurora fork (working tree)
+model/aurora/foundry/client/foundry.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/client/foundry.py	4019adca3daba1ed8a317a1bc2d988eb	microsoft/aurora fork (working tree)
+model/aurora/foundry/common/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/common/__init__.py	140d380ab40ca8d47cf286ea58a9a9d0	microsoft/aurora fork (working tree)
+model/aurora/foundry/common/channel.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/common/channel.py	7fae46e5b53d77a2656f24da3ace9ea7	microsoft/aurora fork (working tree)
+model/aurora/foundry/common/model.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/common/model.py	1dff36cca47e54a66f108ea3a916780a	microsoft/aurora fork (working tree)
+model/aurora/foundry/demo/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/demo/__init__.py	140d380ab40ca8d47cf286ea58a9a9d0	microsoft/aurora fork (working tree)
+model/aurora/foundry/demo/hres_t0_data.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/demo/hres_t0_data.py	1a88a9d98661820d6d518379d27af65e	microsoft/aurora fork (working tree)
+model/aurora/foundry/demo/interactive.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/demo/interactive.py	fdde97762434ece6e9795f1ee8a5d57a	microsoft/aurora fork (working tree)
+model/aurora/foundry/server/mlflow_wrapper.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/foundry/server/mlflow_wrapper.py	308fd2082db8e7d659425da2164591e3	microsoft/aurora fork (working tree)
+model/aurora/gppu.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/gppu.py	be51dce4af87653d82ff851af498ef8e	microsoft/aurora fork (working tree)
+model/aurora/in.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/in.py	d0a3b06ff458ce42fa04da0813d688ce	microsoft/aurora fork (working tree)
+model/aurora/inf.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/inf.py	57ec380571b067e2fec4fd6f8a96fead	microsoft/aurora fork (working tree)
+model/aurora/inf_gpu.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/inf_gpu.py	1c7ab3144cd840f9c1dc2c88dd24471a	microsoft/aurora fork (working tree)
+model/aurora/inference.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/inference.py	de7a0e8e10232de320a63716d290b600	microsoft/aurora fork (working tree)
+model/aurora/lats.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/lats.py	850dd3507edfd1aae9e83396bdd263c8	microsoft/aurora fork (working tree)
+model/aurora/model/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/__init__.py	140d380ab40ca8d47cf286ea58a9a9d0	microsoft/aurora fork (working tree)
+model/aurora/model/aurora.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/aurora.py	fdaefa2e3b8124b8fa8a494739599f7a	microsoft/aurora fork (working tree)
+model/aurora/model/compat.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/compat.py	cb5ba1af3c22efc2afee3e2847c66fbe	microsoft/aurora fork (working tree)
+model/aurora/model/decoder.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/decoder.py	8074420d3fb873395cc1db78923f1256	microsoft/aurora fork (working tree)
+model/aurora/model/encoder.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/encoder.py	a1e25fcd4674028469fadc21ce3c56f5	microsoft/aurora fork (working tree)
+model/aurora/model/film.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/film.py	6788de9f2881deecf6b43171c5fc332c	microsoft/aurora fork (working tree)
+model/aurora/model/fourier.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/fourier.py	2234fca659d5223f8780d6f115578ac4	microsoft/aurora fork (working tree)
+model/aurora/model/levelcond.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/levelcond.py	6593996edcd8381f2b5e7089d222711d	microsoft/aurora fork (working tree)
+model/aurora/model/lora.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/lora.py	7d0c10244e3adeeb1cffcaa07fc65b68	microsoft/aurora fork (working tree)
+model/aurora/model/patchembed.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/patchembed.py	58f884659773564b3fd21c75076ea115	microsoft/aurora fork (working tree)
+model/aurora/model/perceiver.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/perceiver.py	933101d0f60ce977f50ad83888c4ebb4	microsoft/aurora fork (working tree)
+model/aurora/model/posencoding.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/posencoding.py	c513f35a94c4b71c7ebcf11013806808	microsoft/aurora fork (working tree)
+model/aurora/model/swin3d.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/swin3d.py	96e9577260bcc1155868b4cbec27802b	microsoft/aurora fork (working tree)
+model/aurora/model/util.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/model/util.py	836003aad868795785e81ac035163cb3	microsoft/aurora fork (working tree)
+model/aurora/normalisation.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/normalisation.py	d4b253eebc67010d0d8d2f95007b8a54	microsoft/aurora fork (working tree)
+model/aurora/rmse.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/rmse.py	f5a7389be23bc99a90e6cf54e3f398bd	microsoft/aurora fork (working tree)
+model/aurora/roll.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/roll.py	2b418d64e348c2a0186cf4b781a107e1	microsoft/aurora fork (working tree)
+model/aurora/roll2.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/roll2.py	14ff894493f897437f4b384fb410a0dc	microsoft/aurora fork (working tree)
+model/aurora/roll_landonly.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/roll_landonly.py	35ebde3c57a2abe4f490cbf56035be16	microsoft/aurora fork (working tree)
+model/aurora/rollout.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/rollout.py	5064ecf79903b19dee780601909b8341	microsoft/aurora fork (working tree)
+model/aurora/rollout_uv_land.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/rollout_uv_land.py	3e905fb77e031608042c049ea370ce18	microsoft/aurora fork (working tree)
+model/aurora/tracker.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/tracker.py	6534006d31642db9a300da047412cff0	microsoft/aurora fork (working tree)
+model/docs/_config.yml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/_config.yml	9f418b755114db217230b5d9fef7c8a3	microsoft/aurora fork (working tree)
+model/docs/_extras/paper/index.html	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/_extras/paper/index.html	27234eb5f6854451ab33a1ce5ebf1755	microsoft/aurora fork (working tree)
+model/docs/_toc.yml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/_toc.yml	abe650b24bbe146be53805448521a8b0	microsoft/aurora fork (working tree)
+model/docs/ai_models_plugin.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/ai_models_plugin.md	43f148a2f2f8dd29aa8bed006d33bd2a	microsoft/aurora fork (working tree)
+model/docs/api.rst	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/api.rst	cd6c7e348ae1d03c12c3161be550f19d	microsoft/aurora fork (working tree)
+model/docs/aurora.jpg	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/aurora.jpg	7a5983acbb5d666d600d6e7e5bade5c5	microsoft/aurora fork (working tree)
+model/docs/batch.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/batch.md	71e40faa9cdc25fbaf0e9ee772f3d572	microsoft/aurora fork (working tree)
+model/docs/beware.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/beware.md	52d4b6445e48b22bd75b6ba6cf91985d	microsoft/aurora fork (working tree)
+model/docs/example_cams.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/example_cams.ipynb	5f1da3bb3aff3df7f80582e59d7300c9	microsoft/aurora fork (working tree)
+model/docs/example_era5.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/example_era5.ipynb	3b023914142d8d843f753ee60d62c6e1	microsoft/aurora fork (working tree)
+model/docs/example_hres_0.1.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/example_hres_0.1.ipynb	f213ec76e49cebb258be2443b50985fa	microsoft/aurora fork (working tree)
+model/docs/example_hres_t0.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/example_hres_t0.ipynb	aedd541c0e8fa255e3ecd12f266df72e	microsoft/aurora fork (working tree)
+model/docs/example_tc_tracking.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/example_tc_tracking.ipynb	dcf2297aa4bc8be57c0c46cd50076983	microsoft/aurora fork (working tree)
+model/docs/example_wave.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/example_wave.ipynb	94766418b0106f170d1247fc795c09c5	microsoft/aurora fork (working tree)
+model/docs/finetuning.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/finetuning.md	b59337a91dabf3f97cbd791ac6779214	microsoft/aurora fork (working tree)
+model/docs/foundry/api.rst	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/foundry/api.rst	23c9c6469ab5d802ce3920e4604df30c	microsoft/aurora fork (working tree)
+model/docs/foundry/demo_hres_t0.ipynb	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/foundry/demo_hres_t0.ipynb	8ce0a2b1eb8b35b5d2a3d6396813d6f2	microsoft/aurora fork (working tree)
+model/docs/foundry/intro.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/foundry/intro.md	28a863576beebc46195ea28b17ba4d13	microsoft/aurora fork (working tree)
+model/docs/foundry/server.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/foundry/server.md	c349d16d18b13688d90f9201603bdf27	microsoft/aurora fork (working tree)
+model/docs/foundry/submission.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/foundry/submission.md	70814ecb26c360277e10a48a9f3cfa5c	microsoft/aurora fork (working tree)
+model/docs/gifs/high_res_2t.gif	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/gifs/high_res_2t.gif	2289204a19cf0b5d794ef6b94d3d4d3b	microsoft/aurora fork (working tree)
+model/docs/gifs/no2.gif	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/gifs/no2.gif	57cc18727d8817b0cc57786874b23b38	microsoft/aurora fork (working tree)
+model/docs/gifs/tc_tracks.gif	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/gifs/tc_tracks.gif	4911daab8efb6c50fb912dbdd7450d44	microsoft/aurora fork (working tree)
+model/docs/gifs/wave_direction.gif	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/gifs/wave_direction.gif	51f2762b4a8265d6f50b97b01fe50f2a	microsoft/aurora fork (working tree)
+model/docs/intro.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/intro.md	0e25e4bb2e532d87cedd59106d2b01b6	microsoft/aurora fork (working tree)
+model/docs/models.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/models.md	c7913ef970d896479c115fe9f900b31a	microsoft/aurora fork (working tree)
+model/docs/tracking.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/tracking.md	90395aa7c138f5fe3ad602d18f1208c0	microsoft/aurora fork (working tree)
+model/docs/usage.md	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/docs/usage.md	a62de805e75788dad3d61370c62419ab	microsoft/aurora fork (working tree)
+model/package_mlflow.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/package_mlflow.py	5d23a03dbe2e35fea6fc603ffb3dcdc5	microsoft/aurora fork (working tree)
+model/plt.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/plt.py	e277b30f0940e7eb6fc89d652203b3a6	microsoft/aurora fork (working tree)
+model/pyproject.toml	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/pyproject.toml	a134e410b6fbc15aed8bbe825afa881a	microsoft/aurora fork (working tree)
+model/tests/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/__init__.py	140d380ab40ca8d47cf286ea58a9a9d0	microsoft/aurora fork (working tree)
+model/tests/conftest.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/conftest.py	19cec54435b432ad10f626a817760733	microsoft/aurora fork (working tree)
+model/tests/foundry/__init__.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/foundry/__init__.py	8e76e1d10511cdc841c92f239bce985c	microsoft/aurora fork (working tree)
+model/tests/foundry/conftest.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/foundry/conftest.py	d863dec0934d345e34c52fb024a92aea	microsoft/aurora fork (working tree)
+model/tests/foundry/test_api.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/foundry/test_api.py	e49e80349ade690df7f52f51c5121291	microsoft/aurora fork (working tree)
+model/tests/test_batch.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/test_batch.py	152c1924621e637212a580827bbb72ca	microsoft/aurora fork (working tree)
+model/tests/test_checkpoint_adaptation.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/test_checkpoint_adaptation.py	213be087a56487268d7662952f8b3a3f	microsoft/aurora fork (working tree)
+model/tests/test_headers.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/test_headers.py	6783c370566db1dd176628081a2f5231	microsoft/aurora fork (working tree)
+model/tests/test_model.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/test_model.py	48ebdd8326ec07bcbb73bd342462b463	microsoft/aurora fork (working tree)
+model/tests/test_rollout.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/tests/test_rollout.py	d1e5a35c8322998d3c0374df1e1143e8	microsoft/aurora fork (working tree)
+preprocessing/download_era5_ic.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/down.py	6b35165eeae875a3666701ca2db3f139	MODIFIED FOR RELEASE: hardcoded CDS API key redacted (md5 is of the original)
+preprocessing/download_era5_pressure_febapr2023.py	/umbc/rs/pi_halem/users/yashd1/CC_aurora/down.py	07dea7c108cca2eac0bb0c5c2b23b1ed	MODIFIED FOR RELEASE: hardcoded CDS API key redacted (md5 is of the original)
+preprocessing/download_era5_truth.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/rmse_data/download_era5.py	f02d936862cd7be274da39524e426a7f	MODIFIED FOR RELEASE: hardcoded CDS API key redacted (md5 is of the original)
+preprocessing/download_era5_truth.slurm	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/rmse_data/download_era5.slurm	ace715b962bf61535de67b928f4cc3f7	
+experiments/00_global_runs/t_insertion_global/model_overrides/aurora/rollout.py	RECONSTRUCTED from model/aurora/roll.py	e7790649d0c7c9e5d12e64f1422d6549	inject_vars -> ['t']; verified vs original output (verify_reconstruction.py)
+experiments/00_global_runs/z_insertion_global/model_overrides/aurora/rollout.py	RECONSTRUCTED from model/aurora/roll.py	a381f2a6d0e0831b0222c03aeda75228	inject_vars -> ['z']; verified vs original output (verify_reconstruction.py)
+experiments/00_global_runs/t_insertion_global/inf_t.py	RECONSTRUCTED from /umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/in.py	ef3c9b7cc05bb1505ee6187bb8d162fc	OUTFILE + truth filename changed (truth filename assumed)
+experiments/00_global_runs/uv_insertion_global/inf_uv.py	RECONSTRUCTED from /umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/in.py	a6968da7bc1637e2caf097d83277e043	OUTFILE + truth filename changed (truth filename assumed)
+experiments/00_global_runs/z_insertion_global/inf_z.py	/umbc/rs/pi_halem/users/yashd1/AURORA_DATA/auroa_ins/aurora/in.py	d0a3b06ff458ce42fa04da0813d688ce	original Z driver (exact copy)
+experiments/00_global_runs/verify_reconstruction.py	written for release	2ad20ab61c5647269ab435fc64e655ed	verification of reconstructed rollouts
+experiments/00_global_runs/README.md	written for release	5ca2ddba5d104cb26779cf65381dc01c	

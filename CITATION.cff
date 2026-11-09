@@ -19,6 +19,11 @@ authors:
 license: MIT
 repository-code: "https://github.com/yashdiggikar/Aurora_OSSE"
 version: "1.0.0"
+doi: "10.5281/zenodo.24092590"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24092589"
+    description: "Concept DOI (all versions)"
 date-released: "2026-11-09"
 keywords:
   - observing system simulation experiment

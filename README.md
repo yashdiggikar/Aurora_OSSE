@@ -1,5 +1,7 @@
 # Aurora_OSSE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24092589.svg)](https://doi.org/10.5281/zenodo.24092589)
+
 Observing System Simulation Experiment (OSSE) **truth-insertion** framework for Microsoft's
 **Aurora** atmospheric foundation model (0.25°, 13 pressure levels, `aurora-0.25-pretrained`
 checkpoint), released with the manuscript *An AI-Based OSSE Framework to Evaluate Learned Physical Consistency: A Multi-Model Study Using FourCastNet, Aurora, Prithvi WxC, and GraphCast* (Diggikar, Halem, and Raman) (submitted to AGU *JGR: Machine
@@ -113,5 +115,6 @@ MIT (`LICENSE`). `model/` is a modified fork of microsoft/aurora (MIT, `model/LI
 see `NOTICE`.
 
 ## Citation
-See `CITATION.cff`. Please also cite Aurora: Bodnar, C., et al. (2025), A foundation model for
+Diggikar, Y., Halem, M., & Raman, A. (2026). *Aurora_OSSE* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24092590
+(All versions: https://doi.org/10.5281/zenodo.24092589.) See also `CITATION.cff`. Please also cite Aurora: Bodnar, C., et al. (2025), A foundation model for
 the Earth system, *Nature*, 641, 1180–1187, doi:10.1038/s41586-025-09005-y.
